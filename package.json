@@ -1,0 +1,26 @@
+{
+  "name": "interview-code-amit",
+  "version": "1.0.0",
+  "description": "This Nodeapp takes API requests for phone based authentication and authorization, pickup and product requests, rider allotment and delivery location and delivery update using APIs. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitsinkataria/DeliveryAppTestAmit.git"
+  },
+  "keywords": [
+    "Delivery",
+    "messagebird"
+  ],
+  "author": "Amit Kataria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitsinkataria/DeliveryAppTestAmit/issues"
+  },
+  "homepage": "https://github.com/amitsinkataria/DeliveryAppTestAmit#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
