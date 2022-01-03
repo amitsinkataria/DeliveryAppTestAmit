@@ -6,7 +6,10 @@ module.exports = {
         getUserOrders(id, (err, results)=>{
             if(err) { 
 console.log(`no orders found`)
-return }
+res.json({
+    success: 0,
+    data: err
+}) }
 else{
     res.json({
         success: 1,

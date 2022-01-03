@@ -1,8 +1,4 @@
 const {pool} = require('../../config/database')
-
-
-
-
 module.exports = {
 
     getAdminOrders : (callBack)=>{

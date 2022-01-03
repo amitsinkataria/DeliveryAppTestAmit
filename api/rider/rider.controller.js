@@ -1,4 +1,3 @@
-const { response } = require('express');
 const { getRiderTasks} =require('./rider.service');
 
 
