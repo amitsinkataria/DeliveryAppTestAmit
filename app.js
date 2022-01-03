@@ -5,8 +5,8 @@ const adminRouter = require('./api/admin/admin.router')
 const riderRouter = require('./api/rider/rider.router')
 
 app.use(express.json());
-app.use(express.urlencoded(), {extended : true});
 require('dotenv').config()
+
 
 app.get('/user', userRouter);
 app.get('/admin', adminRouter);
